@@ -2,7 +2,6 @@
 #include <actionlib/client/simple_action_client.h>
 #include <actionlib/client/terminal_state.h>
 #include <move_base_msgs/MoveBaseAction.h>
-#include <geometry_msgs/PoseStamped.h>
 #include <queue>
 
 void checkpointCallback(std::queue<geometry_msgs::PoseStamped> &queue, const geometry_msgs::PoseStamped &msg)
